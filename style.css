@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(38, 112, 177);
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px gray,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns:repeat(4,70px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 270px;
+    background-color: rgb(240, 231, 220);
+    box-shadow: inset -5px -5px 12px floralwhite,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 15px;
+    color: rgb(70,70,70);
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    box-shadow: -5px -5px 12px whitesmoke,
+                5px 5px 12px rgba(0,0,0,.16);
+    margin: 8px;
+    font-size: 20px;
+}
+.equal{
+    background-color: rgba(235, 10, 10, 0.671);
+}
+h6{
+    font-size: 15px;
+    width: 90px;
+}
+h1{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:coral;
+    font-size: 50px;
+    padding: 15px;
+    background-color: rgb(238, 164, 73);
+    box-shadow: inset -5px -5px 12px floralwhite,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+}
+@viewport{
+    zoom:1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom:1.0;
+}
