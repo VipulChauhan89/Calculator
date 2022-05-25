@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(38, 112, 177);
+    background-color: #26648B;
     font-family: sans-serif;
     outline: none;
 }
@@ -60,10 +60,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:coral;
+    background-color: #FFE3B3;
+    color: black;
     font-size: 50px;
     padding: 15px;
-    background-color: rgb(238, 164, 73);
     box-shadow: inset -5px -5px 12px floralwhite,
                 inset 5px 5px 12px rgba(0,0,0,.16);
 }
